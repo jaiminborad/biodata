@@ -90,11 +90,10 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('body').classList.toggle('mobile-nav-active')
-    this.classList.toggle('fa-bars')
-    this.classList.toggle('fa-times')
-  })
+  on("click", ".mobile-nav-toggle", function (e) {
+    select("body").classList.toggle("mobile-nav-active");
+    this.classList.toggle("fa fa-times");
+  });
 
   /**
    * Scrool with ofset on links with a class name .scrollto
